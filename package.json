@@ -1,0 +1,26 @@
+{
+  "name": "cryptostribe",
+  "version": "0.0.1",
+  "description": "",
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.5",
+    "@nomiclabs/hardhat-etherscan": "^3.0.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "@openzeppelin/contracts": "^4.5.0",
+    "@uniswap/v2-periphery": "^1.1.0-beta.0",
+    "chai": "^4.3.6",
+    "ethers": "^5.5.4",
+    "hardhat": "^2.9.1"
+  },
+  "scripts": {
+    "compile": "hardhat compile",
+    "test": "hardhat test"
+  },
+  "repository": {
+    "type": "git"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@uniswap/lib": "^4.0.1-alpha"
+  }
+}
